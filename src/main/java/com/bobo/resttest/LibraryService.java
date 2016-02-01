@@ -19,7 +19,7 @@ public class LibraryService {
         List<Book> books = new ArrayList<Book>();
         books.add(new Book("Java The Complete Reference, 8th Edition", "Herbert Schildt", 479));
         books.add(new Book("Jboss As 7 Configuration, Deployment, And Administration", "Francesco Marchioni", 450));
-//        books.add(new Book("RESTful Java with JAX-RS 2.0 2ed", "Bill Burke", 2018));
+        books.add(new Book("RESTful Java with JAX-RS 2.0 2ed", "Bill Burke", 2018));
         return books;
     }
 }
