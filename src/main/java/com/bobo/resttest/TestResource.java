@@ -35,7 +35,7 @@ public class TestResource {
     @GET
     @Path("hello/{name}")
     public String sayHello(@PathParam("name") String name) {
-        return "Haho " + name + "!!!";
+        return "Csao" + name + "!!!";
     }
 
     /**
